@@ -1,0 +1,14 @@
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\obj\Debug\net9.0\INterfaces1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\obj\Debug\net9.0\INterfaces1.AssemblyInfoInputs.cache
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\obj\Debug\net9.0\INterfaces1.AssemblyInfo.cs
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\obj\Debug\net9.0\INterfaces1.csproj.CoreCompileInputs.cache
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\bin\Debug\net9.0\INterfaces1.exe
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\bin\Debug\net9.0\INterfaces1.deps.json
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\bin\Debug\net9.0\INterfaces1.runtimeconfig.json
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\bin\Debug\net9.0\INterfaces1.dll
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\bin\Debug\net9.0\INterfaces1.pdb
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\obj\Debug\net9.0\INterfaces1.dll
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\obj\Debug\net9.0\refint\INterfaces1.dll
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\obj\Debug\net9.0\INterfaces1.pdb
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\obj\Debug\net9.0\INterfaces1.genruntimeconfig.cache
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaces1\obj\Debug\net9.0\ref\INterfaces1.dll

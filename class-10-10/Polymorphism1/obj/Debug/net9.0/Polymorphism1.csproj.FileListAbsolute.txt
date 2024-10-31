@@ -1,0 +1,14 @@
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\bin\Debug\net9.0\Polymorphism1.exe
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\bin\Debug\net9.0\Polymorphism1.deps.json
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\bin\Debug\net9.0\Polymorphism1.runtimeconfig.json
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\bin\Debug\net9.0\Polymorphism1.dll
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\bin\Debug\net9.0\Polymorphism1.pdb
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\obj\Debug\net9.0\Polymorphism1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\obj\Debug\net9.0\Polymorphism1.AssemblyInfoInputs.cache
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\obj\Debug\net9.0\Polymorphism1.AssemblyInfo.cs
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\obj\Debug\net9.0\Polymorphism1.csproj.CoreCompileInputs.cache
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\obj\Debug\net9.0\Polymorphism1.dll
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\obj\Debug\net9.0\refint\Polymorphism1.dll
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\obj\Debug\net9.0\Polymorphism1.pdb
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\obj\Debug\net9.0\Polymorphism1.genruntimeconfig.cache
+C:\Users\prabe\Code\Languages\C#\class-10-10\Polymorphism1\obj\Debug\net9.0\ref\Polymorphism1.dll

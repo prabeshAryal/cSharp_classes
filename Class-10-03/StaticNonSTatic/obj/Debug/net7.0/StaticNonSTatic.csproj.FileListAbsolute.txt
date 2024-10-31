@@ -1,0 +1,15 @@
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\bin\Debug\net7.0\StaticNonSTatic.exe
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\bin\Debug\net7.0\StaticNonSTatic.deps.json
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\bin\Debug\net7.0\StaticNonSTatic.runtimeconfig.json
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\bin\Debug\net7.0\StaticNonSTatic.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\bin\Debug\net7.0\StaticNonSTatic.pdb
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\obj\Debug\net7.0\StaticNonSTatic.csproj.AssemblyReference.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\obj\Debug\net7.0\StaticNonSTatic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\obj\Debug\net7.0\StaticNonSTatic.AssemblyInfoInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\obj\Debug\net7.0\StaticNonSTatic.AssemblyInfo.cs
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\obj\Debug\net7.0\StaticNonSTatic.csproj.CoreCompileInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\obj\Debug\net7.0\StaticNonSTatic.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\obj\Debug\net7.0\refint\StaticNonSTatic.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\obj\Debug\net7.0\StaticNonSTatic.pdb
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\obj\Debug\net7.0\StaticNonSTatic.genruntimeconfig.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\StaticNonSTatic\obj\Debug\net7.0\ref\StaticNonSTatic.dll

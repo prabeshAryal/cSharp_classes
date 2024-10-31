@@ -1,0 +1,15 @@
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\bin\Debug\net7.0\Class_Intro.exe
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\bin\Debug\net7.0\Class_Intro.deps.json
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\bin\Debug\net7.0\Class_Intro.runtimeconfig.json
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\bin\Debug\net7.0\Class_Intro.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\bin\Debug\net7.0\Class_Intro.pdb
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\obj\Debug\net7.0\Class_Intro.csproj.AssemblyReference.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\obj\Debug\net7.0\Class_Intro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\obj\Debug\net7.0\Class_Intro.AssemblyInfoInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\obj\Debug\net7.0\Class_Intro.AssemblyInfo.cs
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\obj\Debug\net7.0\Class_Intro.csproj.CoreCompileInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\obj\Debug\net7.0\Class_Intro.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\obj\Debug\net7.0\refint\Class_Intro.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\obj\Debug\net7.0\Class_Intro.pdb
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\obj\Debug\net7.0\Class_Intro.genruntimeconfig.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Class_Intro\obj\Debug\net7.0\ref\Class_Intro.dll

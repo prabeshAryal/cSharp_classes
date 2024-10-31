@@ -1,0 +1,15 @@
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\bin\Debug\net7.0\FUnctionUsages.exe
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\bin\Debug\net7.0\FUnctionUsages.deps.json
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\bin\Debug\net7.0\FUnctionUsages.runtimeconfig.json
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\bin\Debug\net7.0\FUnctionUsages.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\bin\Debug\net7.0\FUnctionUsages.pdb
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\obj\Debug\net7.0\FUnctionUsages.csproj.AssemblyReference.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\obj\Debug\net7.0\FUnctionUsages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\obj\Debug\net7.0\FUnctionUsages.AssemblyInfoInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\obj\Debug\net7.0\FUnctionUsages.AssemblyInfo.cs
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\obj\Debug\net7.0\FUnctionUsages.csproj.CoreCompileInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\obj\Debug\net7.0\FUnctionUsages.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\obj\Debug\net7.0\refint\FUnctionUsages.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\obj\Debug\net7.0\FUnctionUsages.pdb
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\obj\Debug\net7.0\FUnctionUsages.genruntimeconfig.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\FUnctionUsages\obj\Debug\net7.0\ref\FUnctionUsages.dll

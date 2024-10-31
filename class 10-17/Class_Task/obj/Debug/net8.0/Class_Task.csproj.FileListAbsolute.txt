@@ -1,0 +1,14 @@
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\bin\Debug\net8.0\Class_Task.exe
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\bin\Debug\net8.0\Class_Task.deps.json
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\bin\Debug\net8.0\Class_Task.runtimeconfig.json
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\bin\Debug\net8.0\Class_Task.dll
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\bin\Debug\net8.0\Class_Task.pdb
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\obj\Debug\net8.0\Class_Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\obj\Debug\net8.0\Class_Task.AssemblyInfoInputs.cache
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\obj\Debug\net8.0\Class_Task.AssemblyInfo.cs
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\obj\Debug\net8.0\Class_Task.csproj.CoreCompileInputs.cache
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\obj\Debug\net8.0\Class_Task.dll
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\obj\Debug\net8.0\refint\Class_Task.dll
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\obj\Debug\net8.0\Class_Task.pdb
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\obj\Debug\net8.0\Class_Task.genruntimeconfig.cache
+C:\Users\prabe\Code\Languages\C#\class 10-17\Class_Task\obj\Debug\net8.0\ref\Class_Task.dll

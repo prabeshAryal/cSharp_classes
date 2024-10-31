@@ -1,0 +1,16 @@
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\bin\Debug\net8.0-windows\CalculatoraApp.exe
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\bin\Debug\net8.0-windows\CalculatoraApp.deps.json
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\bin\Debug\net8.0-windows\CalculatoraApp.runtimeconfig.json
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\bin\Debug\net8.0-windows\CalculatoraApp.dll
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\bin\Debug\net8.0-windows\CalculatoraApp.pdb
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\obj\Debug\net8.0-windows\CalculatoraApp.Form1.resources
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\obj\Debug\net8.0-windows\CalculatoraApp.csproj.GenerateResource.cache
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\obj\Debug\net8.0-windows\CalculatoraApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\obj\Debug\net8.0-windows\CalculatoraApp.AssemblyInfoInputs.cache
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\obj\Debug\net8.0-windows\CalculatoraApp.AssemblyInfo.cs
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\obj\Debug\net8.0-windows\CalculatoraApp.csproj.CoreCompileInputs.cache
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\obj\Debug\net8.0-windows\CalculatoraApp.dll
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\obj\Debug\net8.0-windows\refint\CalculatoraApp.dll
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\obj\Debug\net8.0-windows\CalculatoraApp.pdb
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\obj\Debug\net8.0-windows\CalculatoraApp.genruntimeconfig.cache
+C:\Users\prabe\Code\Languages\C#\class-10-24\CalculatoraApp\obj\Debug\net8.0-windows\ref\CalculatoraApp.dll

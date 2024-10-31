@@ -1,0 +1,14 @@
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\bin\Debug\net9.0\INterfaceTask2.exe
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\bin\Debug\net9.0\INterfaceTask2.deps.json
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\bin\Debug\net9.0\INterfaceTask2.runtimeconfig.json
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\bin\Debug\net9.0\INterfaceTask2.dll
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\bin\Debug\net9.0\INterfaceTask2.pdb
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\obj\Debug\net9.0\INterfaceTask2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\obj\Debug\net9.0\INterfaceTask2.AssemblyInfoInputs.cache
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\obj\Debug\net9.0\INterfaceTask2.AssemblyInfo.cs
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\obj\Debug\net9.0\INterfaceTask2.csproj.CoreCompileInputs.cache
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\obj\Debug\net9.0\INterfaceTask2.dll
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\obj\Debug\net9.0\refint\INterfaceTask2.dll
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\obj\Debug\net9.0\INterfaceTask2.pdb
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\obj\Debug\net9.0\INterfaceTask2.genruntimeconfig.cache
+C:\Users\prabe\Code\Languages\C#\class-10-10\INterfaceTask2\obj\Debug\net9.0\ref\INterfaceTask2.dll

@@ -1,0 +1,16 @@
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\bin\Debug\net8.0-windows\GUIAPP1.exe
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\bin\Debug\net8.0-windows\GUIAPP1.deps.json
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\bin\Debug\net8.0-windows\GUIAPP1.runtimeconfig.json
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\bin\Debug\net8.0-windows\GUIAPP1.dll
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\bin\Debug\net8.0-windows\GUIAPP1.pdb
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\obj\Debug\net8.0-windows\GUIAPP1.Form1.resources
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\obj\Debug\net8.0-windows\GUIAPP1.csproj.GenerateResource.cache
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\obj\Debug\net8.0-windows\GUIAPP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\obj\Debug\net8.0-windows\GUIAPP1.AssemblyInfoInputs.cache
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\obj\Debug\net8.0-windows\GUIAPP1.AssemblyInfo.cs
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\obj\Debug\net8.0-windows\GUIAPP1.csproj.CoreCompileInputs.cache
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\obj\Debug\net8.0-windows\GUIAPP1.dll
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\obj\Debug\net8.0-windows\refint\GUIAPP1.dll
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\obj\Debug\net8.0-windows\GUIAPP1.pdb
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\obj\Debug\net8.0-windows\GUIAPP1.genruntimeconfig.cache
+C:\Users\prabe\Code\Languages\C#\class-10-24\GUIAPP1\obj\Debug\net8.0-windows\ref\GUIAPP1.dll

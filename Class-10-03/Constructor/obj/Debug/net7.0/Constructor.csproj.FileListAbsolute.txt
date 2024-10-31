@@ -1,0 +1,15 @@
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\bin\Debug\net7.0\Constructor.exe
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\bin\Debug\net7.0\Constructor.deps.json
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\bin\Debug\net7.0\Constructor.runtimeconfig.json
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\bin\Debug\net7.0\Constructor.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\bin\Debug\net7.0\Constructor.pdb
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\obj\Debug\net7.0\Constructor.csproj.AssemblyReference.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\obj\Debug\net7.0\Constructor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\obj\Debug\net7.0\Constructor.AssemblyInfoInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\obj\Debug\net7.0\Constructor.AssemblyInfo.cs
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\obj\Debug\net7.0\Constructor.csproj.CoreCompileInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\obj\Debug\net7.0\Constructor.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\obj\Debug\net7.0\refint\Constructor.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\obj\Debug\net7.0\Constructor.pdb
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\obj\Debug\net7.0\Constructor.genruntimeconfig.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\Constructor\obj\Debug\net7.0\ref\Constructor.dll

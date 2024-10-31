@@ -1,0 +1,14 @@
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\bin\Debug\net8.0\IDkTests.exe
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\bin\Debug\net8.0\IDkTests.deps.json
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\bin\Debug\net8.0\IDkTests.runtimeconfig.json
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\bin\Debug\net8.0\IDkTests.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\bin\Debug\net8.0\IDkTests.pdb
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\obj\Debug\net8.0\IDkTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\obj\Debug\net8.0\IDkTests.AssemblyInfoInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\obj\Debug\net8.0\IDkTests.AssemblyInfo.cs
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\obj\Debug\net8.0\IDkTests.csproj.CoreCompileInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\obj\Debug\net8.0\IDkTests.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\obj\Debug\net8.0\refint\IDkTests.dll
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\obj\Debug\net8.0\IDkTests.pdb
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\obj\Debug\net8.0\IDkTests.genruntimeconfig.cache
+C:\Users\prabe\Code\Languages\C#\Class-10-03\IDkTests\IDkTests\obj\Debug\net8.0\ref\IDkTests.dll
