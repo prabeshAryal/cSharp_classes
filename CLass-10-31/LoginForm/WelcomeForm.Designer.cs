@@ -63,11 +63,11 @@ namespace LoginForm
         // Load the avatar based on user index
             try
             {
-                
+
                 // Define the path based on user index (assuming index starts at 0)
                 string avatarPath = $"Assets/avatar-{_userIndex + 1}.png";
-                string basePath = "C:/Users/prabe/Documents/Class/3rd Year/Modern Programmin Language - 1/Project/LoginForm";
-                string full_avatar_path = basePath + "./" + avatarPath ;
+                string basePath = "C:/Users/prabe/Code/Languages/C#/CLass-10-31/LoginForm";
+                string full_avatar_path = basePath + "/" + avatarPath ;
                 this.iconPictureBox.Image = Image.FromFile(full_avatar_path);
             }
             catch (FileNotFoundException)
