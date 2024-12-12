@@ -1,11 +1,5 @@
-using System;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Windows.Forms;
-using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
+using System.Data.Entity;
 
 namespace EntityFrameworkCW
 {
@@ -23,6 +17,11 @@ namespace EntityFrameworkCW
             update_btn.Click += Update_btn_Click;
             delete_btn.Click += Delete_btn_Click;
 
+        }
+
+        private void tb_TextChanged(object sender, EventArgs e)
+        {
+            insert_btn.Visible = true;
         }
 
         private void Load_btn_Click(object sender, EventArgs e)
@@ -165,10 +164,7 @@ namespace EntityFrameworkCW
             }
         }
 
-        private void category_tb_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 
     public class MyDbContext : DbContext

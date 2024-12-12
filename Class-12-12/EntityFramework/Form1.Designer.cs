@@ -48,6 +48,7 @@
             name_tb.Name = "name_tb";
             name_tb.Size = new Size(100, 23);
             name_tb.TabIndex = 0;
+            name_tb.TextChanged += tb_TextChanged;
             // 
             // price_tb
             // 
@@ -55,6 +56,8 @@
             price_tb.Name = "price_tb";
             price_tb.Size = new Size(100, 23);
             price_tb.TabIndex = 1;
+            price_tb.TextChanged += tb_TextChanged;
+
             // 
             // category_tb
             // 
@@ -62,7 +65,8 @@
             category_tb.Name = "category_tb";
             category_tb.Size = new Size(100, 23);
             category_tb.TabIndex = 2;
-            category_tb.TextChanged += category_tb_TextChanged;
+            category_tb.TextChanged += tb_TextChanged;
+
             // 
             // load_btn
             // 
@@ -81,6 +85,7 @@
             insert_btn.TabIndex = 4;
             insert_btn.Text = "Insert";
             insert_btn.UseVisualStyleBackColor = true;
+            insert_btn.Visible=false;
             // 
             // update_btn
             // 
