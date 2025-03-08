@@ -1,0 +1,15 @@
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\bin\Debug\net8.0\ThreadsEx1.exe
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\bin\Debug\net8.0\ThreadsEx1.deps.json
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\bin\Debug\net8.0\ThreadsEx1.runtimeconfig.json
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\bin\Debug\net8.0\ThreadsEx1.dll
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\bin\Debug\net8.0\ThreadsEx1.pdb
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\obj\Debug\net8.0\ThreadsEx1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\obj\Debug\net8.0\ThreadsEx1.AssemblyInfoInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\obj\Debug\net8.0\ThreadsEx1.AssemblyInfo.cs
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\obj\Debug\net8.0\ThreadsEx1.csproj.CoreCompileInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\obj\Debug\net8.0\ThreadsEx1.sourcelink.json
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\obj\Debug\net8.0\ThreadsEx1.dll
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\obj\Debug\net8.0\refint\ThreadsEx1.dll
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\obj\Debug\net8.0\ThreadsEx1.pdb
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\obj\Debug\net8.0\ThreadsEx1.genruntimeconfig.cache
+C:\Users\prabe\Code\Languages\C#\Class-12-19\ThreadsEx1\obj\Debug\net8.0\ref\ThreadsEx1.dll

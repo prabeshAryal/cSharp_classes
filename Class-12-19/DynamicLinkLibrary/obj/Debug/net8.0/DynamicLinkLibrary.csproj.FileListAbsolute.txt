@@ -1,0 +1,12 @@
+C:\Users\prabe\Code\Languages\C#\Class-12-19\DynamicLinkLibrary\bin\Debug\net8.0\DynamicLinkLibrary.deps.json
+C:\Users\prabe\Code\Languages\C#\Class-12-19\DynamicLinkLibrary\bin\Debug\net8.0\DynamicLinkLibrary.dll
+C:\Users\prabe\Code\Languages\C#\Class-12-19\DynamicLinkLibrary\bin\Debug\net8.0\DynamicLinkLibrary.pdb
+C:\Users\prabe\Code\Languages\C#\Class-12-19\DynamicLinkLibrary\obj\Debug\net8.0\DynamicLinkLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabe\Code\Languages\C#\Class-12-19\DynamicLinkLibrary\obj\Debug\net8.0\DynamicLinkLibrary.AssemblyInfoInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-12-19\DynamicLinkLibrary\obj\Debug\net8.0\DynamicLinkLibrary.AssemblyInfo.cs
+C:\Users\prabe\Code\Languages\C#\Class-12-19\DynamicLinkLibrary\obj\Debug\net8.0\DynamicLinkLibrary.csproj.CoreCompileInputs.cache
+C:\Users\prabe\Code\Languages\C#\Class-12-19\DynamicLinkLibrary\obj\Debug\net8.0\DynamicLinkLibrary.sourcelink.json
+C:\Users\prabe\Code\Languages\C#\Class-12-19\DynamicLinkLibrary\obj\Debug\net8.0\DynamicLinkLibrary.dll
+C:\Users\prabe\Code\Languages\C#\Class-12-19\DynamicLinkLibrary\obj\Debug\net8.0\refint\DynamicLinkLibrary.dll
+C:\Users\prabe\Code\Languages\C#\Class-12-19\DynamicLinkLibrary\obj\Debug\net8.0\DynamicLinkLibrary.pdb
+C:\Users\prabe\Code\Languages\C#\Class-12-19\DynamicLinkLibrary\obj\Debug\net8.0\ref\DynamicLinkLibrary.dll
