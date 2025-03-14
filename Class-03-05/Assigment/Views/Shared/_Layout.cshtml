@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="~/css/styles.css">
+
+    <title>@ViewData["Title"] - My ASP.NET Core App</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a asp-controller="Home" asp-action="Index" class="nav__logo">
+                    <i class="ri-code-s-slash-line"></i> Prabesh
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a asp-controller="Home" asp-action="Index" class="nav__link">Home</a></li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Discover <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-flashlight-line"></i>
+                                    </div>
+                                    <span class="dropdown__title">Most viewed courses</span>
+                                    <ul class="dropdown__list">
+                                        <li><a asp-controller="Courses" asp-action="HTML" class="dropdown__link">HTML for beginners</a></li>
+                                        <li><a asp-controller="Courses" asp-action="CSS" class="dropdown__link">Advanced CSS</a></li>
+                                        <li><a asp-controller="Courses" asp-action="JS" class="dropdown__link">JavaScript OOP</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-heart-3-line"></i>
+                                    </div>
+                                    <span class="dropdown__title">Popular courses</span>
+                                    <ul class="dropdown__list">
+                                        <li><a asp-controller="Courses" asp-action="Flutter" class="dropdown__link">Development with Flutter</a></li>
+                                        <li><a asp-controller="Courses" asp-action="React" class="dropdown__link">Web development with React</a></li>
+                                        <li><a asp-controller="Courses" asp-action="Backend" class="dropdown__link">Backend development expert</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Resources <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-code-line"></i>
+                                    </div>
+                                    <span class="dropdown__title">Web templates</span>
+                                    <ul class="dropdown__list">
+                                        <li><a asp-controller="Resources" asp-action="FreeTemplates" class="dropdown__link">Free templates</a></li>
+                                        <li><a asp-controller="Resources" asp-action="PremiumTemplates" class="dropdown__link">Premium templates</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><a asp-controller="Home" asp-action="Pricing" class="nav__link">Pricing</a></li>
+
+                    <!--=============== DROPDOWN 3 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Company <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-community-line"></i>
+                                    </div>
+                                    <span class="dropdown__title">About us</span>
+                                    <ul class="dropdown__list">
+                                        <li><a asp-controller="Home" asp-action="Privacy" class="dropdown__link">About us</a></li>
+                                        <li><a asp-controller="Home" asp-action="Privacy" class="dropdown__link">Support</a></li>
+                                        <li><a asp-controller="Home" asp-action="Privacy" class="dropdown__link">Contact us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content will be inserted here -->
+    <main>
+        @RenderBody()
+    </main>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="~/js/main.js"></script>
+</body>
+</html>
