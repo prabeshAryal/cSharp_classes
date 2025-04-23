@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "OurNotificationAPP/1.0.0": {
+        "runtime": {
+          "OurNotificationAPP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OurNotificationAPP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
