@@ -8,8 +8,12 @@ builder.Services.AddControllersWithViews();
 
 // Register notification services
 builder.Services.AddSingleton<NotificationLogService>(); // Use singleton for demo to persist logs
+
+
 builder.Services.AddScoped<EmailNotificationService>();
 builder.Services.AddScoped<SmsNotificationService>();
+
+
 builder.Services.AddScoped<INotificationService, EmailNotificationService>(); // Default service
 builder.Services.AddScoped<NotificationFactory>();
 
