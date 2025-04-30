@@ -1,0 +1,61 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center my-5">
+    <h1 class="display-4">Welcome to Employee Portal</h1>
+    <p class="lead">A simple employee management system built with ASP.NET Core Razor Pages.</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <h5 class="card-title">Manage Employees</h5>
+                <p class="card-text">Add, edit, view, and delete employee records in the system.</p>
+                <a asp-page="/Employees/Index" class="btn btn-primary">Employee Dashboard</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <h5 class="card-title">Quick Add</h5>
+                <p class="card-text">Quickly add a new employee to the system with basic information.</p>
+                <a asp-page="/Employees/Create" class="btn btn-success">Add New Employee</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <h5 class="card-title">Reports</h5>
+                <p class="card-text">View reports and statistics about your employees (coming soon).</p>
+                <button class="btn btn-secondary" disabled>View Reports</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">About Employee Portal</h5>
+            </div>
+            <div class="card-body">
+                <p>This application allows you to manage employee records with the following features:</p>
+                <ul>
+                    <li>View a list of all employees</li>
+                    <li>Add new employees to the system</li>
+                    <li>Edit existing employee information</li>
+                    <li>View detailed information about each employee</li>
+                    <li>Delete employees from the system</li>
+                </ul>
+                <p>The system is built using ASP.NET Core Razor Pages with an in-memory repository.</p>
+            </div>
+        </div>
+    </div>
+</div>

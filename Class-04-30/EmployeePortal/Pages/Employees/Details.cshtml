@@ -1,0 +1,51 @@
+﻿@page "{id:int}"
+@model EmployeePortal.Pages.Employees.DetailsModel
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<h1>Employee Details</h1>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <h5 class="card-title">@Model.Employee!.FullName</h5>
+        <h6 class="card-subtitle text-muted">ID: @Model.Employee.Id</h6>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">
+                <dl class="row">
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Employee.FirstName)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Employee.FirstName)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Employee.LastName)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Employee.LastName)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Employee.Email)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Employee.Email)</dd>
+                </dl>
+            </div>
+            <div class="col-md-6">
+                <dl class="row">
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Employee.PhoneNumber)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Employee.PhoneNumber)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Employee.Department)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Employee.Department)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Employee.HireDate)</dt>
+                    <dd class="col-sm-8">@Model.Employee.HireDate.ToString("yyyy-MM-dd")</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer">
+        <div class="d-flex justify-content-between">
+            <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+            <div>
+                <a asp-page="./Edit" asp-route-id="@Model.Employee.Id" class="btn btn-primary">Edit</a>
+                <a asp-page="./Delete" asp-route-id="@Model.Employee.Id" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+</div>

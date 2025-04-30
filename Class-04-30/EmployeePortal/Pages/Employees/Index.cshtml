@@ -1,0 +1,52 @@
+﻿@page
+@model EmployeePortal.Pages.Employees.IndexModel
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<h1>Employees</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Employees[0].Id)</th>
+                <th>@Html.DisplayNameFor(model => model.Employees[0].FullName)</th>
+                <th>@Html.DisplayNameFor(model => model.Employees[0].Email)</th>
+                <th>@Html.DisplayNameFor(model => model.Employees[0].Department)</th>
+                <th>@Html.DisplayNameFor(model => model.Employees[0].HireDate)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in Model.Employees)
+            {
+                <tr>
+                    <td>@employee.Id</td>
+                    <td>@employee.FullName</td>
+                    <td>@employee.Email</td>
+                    <td>@employee.Department</td>
+                    <td>@employee.HireDate.ToString("yyyy-MM-dd")</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a asp-page="./Edit" asp-route-id="@employee.Id" class="btn btn-sm btn-primary">Edit</a>
+                            <a asp-page="./Details" asp-route-id="@employee.Id" class="btn btn-sm btn-info">Details</a>
+                            <a asp-page="./Delete" asp-route-id="@employee.Id" class="btn btn-sm btn-danger">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@if (!Model.Employees.Any())
+{
+    <div class="alert alert-info">
+        No employees found. <a asp-page="Create">Add a new employee</a> to get started.
+    </div>
+}
