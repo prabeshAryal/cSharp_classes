@@ -1,0 +1,73 @@
+﻿@page
+@model WebApplication3.Pages.Books.SearchModel
+@{
+    ViewData["Title"] = "Search Books";
+}
+
+<h1>Search Books</h1>
+
+<div class="row mb-4">
+    <div class="col-md-8">
+        <form method="get" class="search-bar">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search by title or author..."
+                       asp-for="SearchTerm" />
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-search"></i> Search
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (!string.IsNullOrEmpty(Model.SearchTerm))
+{
+    <h2>Results for: "@Model.SearchTerm"</h2>
+
+    @if (Model.SearchResults.Count > 0)
+    {
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Year</th>
+                        <th>ISBN</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var book in Model.SearchResults)
+                    {
+                        <tr>
+                            <td>@book.Id</td>
+                            <td>@book.Title</td>
+                            <td>@book.Author</td>
+                            <td>@book.Year</td>
+                            <td>@book.ISBN</td>
+                            <td>
+                                <div class="btn-group">
+                                    <a asp-page="./Details" asp-route-id="@book.Id" class="btn btn-sm btn-info">Details</a>
+                                    <a asp-page="./Edit" asp-route-id="@book.Id" class="btn btn-sm btn-warning">Edit</a>
+                                    <a asp-page="./Delete" asp-route-id="@book.Id" class="btn btn-sm btn-danger">Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            <i class="bi bi-info-circle"></i> No books found matching your search criteria.
+        </div>
+    }
+}
+
+<div>
+    <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+</div>

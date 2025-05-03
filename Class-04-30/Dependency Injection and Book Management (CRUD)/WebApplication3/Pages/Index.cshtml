@@ -1,0 +1,49 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Book Management System</h1>
+    <p>Welcome to the Book Management System. A simple demonstration of ASP.NET Core Razor Pages with Dependency Injection.</p>
+
+    <div class="mt-5">
+        <a asp-page="/Books/Index" class="btn btn-primary btn-lg">
+            <i class="bi bi-book"></i> Manage Books
+        </a>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5><i class="bi bi-layers"></i> Repository Pattern</h5>
+                </div>
+                <div class="card-body">
+                    <p>Implements the repository pattern to separate data access logic from business logic.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5><i class="bi bi-diagram-3"></i> Dependency Injection</h5>
+                </div>
+                <div class="card-body">
+                    <p>Uses ASP.NET Core's built-in dependency injection container for loose coupling.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5><i class="bi bi-card-list"></i> CRUD Operations</h5>
+                </div>
+                <div class="card-body">
+                    <p>Full implementation of Create, Read, Update, and Delete operations for book management.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

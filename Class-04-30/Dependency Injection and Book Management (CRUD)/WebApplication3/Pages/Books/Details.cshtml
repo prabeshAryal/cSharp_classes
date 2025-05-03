@@ -1,0 +1,45 @@
+﻿@page "{id}"
+@model WebApplication3.Pages.Books.DetailsModel
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<h1>Book Details</h1>
+
+<div class="card">
+    <div class="card-header">
+        <h3>@Model.Book.Title</h3>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">ID</dt>
+            <dd class="col-sm-9">@Model.Book.Id</dd>
+
+            <dt class="col-sm-3">Title</dt>
+            <dd class="col-sm-9">@Model.Book.Title</dd>
+
+            <dt class="col-sm-3">Author</dt>
+            <dd class="col-sm-9">@Model.Book.Author</dd>
+
+            <dt class="col-sm-3">Year</dt>
+            <dd class="col-sm-9">@Model.Book.Year</dd>
+
+            <dt class="col-sm-3">ISBN</dt>
+            <dd class="col-sm-9">@Model.Book.ISBN</dd>
+
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9">@Model.Book.Description</dd>
+
+            <dt class="col-sm-3">Created</dt>
+            <dd class="col-sm-9">@Model.Book.CreatedAt.ToString("g")</dd>
+
+            <dt class="col-sm-3">Last Updated</dt>
+            <dd class="col-sm-9">@Model.Book.UpdatedAt.ToString("g")</dd>
+        </dl>
+    </div>
+    <div class="card-footer">
+        <a asp-page="./Edit" asp-route-id="@Model.Book.Id" class="btn btn-warning">Edit</a>
+        <a asp-page="./Delete" asp-route-id="@Model.Book.Id" class="btn btn-danger">Delete</a>
+        <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>

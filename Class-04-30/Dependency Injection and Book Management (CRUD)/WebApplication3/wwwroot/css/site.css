@@ -1,0 +1,82 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #f8f9fa;
+}
+
+/* Custom styles for book management */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 60px;
+}
+
+.book-card {
+    transition: transform 0.2s ease;
+    margin-bottom: 20px;
+}
+
+    .book-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+.table {
+    box-shadow: 0 2px 3px rgba(0,0,0,0.03);
+    border-radius: 5px;
+}
+
+    .table thead th {
+        background-color: #f1f1f1;
+        border-bottom: 2px solid #dee2e6;
+    }
+
+.card {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+/* Buttons styling */
+.btn-group .btn {
+    margin-right: 5px;
+}
+
+/* Search bar styling */
+.search-bar {
+    margin-bottom: 20px;
+}
+
+/* Alert styling */
+.alert {
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
