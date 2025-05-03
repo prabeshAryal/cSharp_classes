@@ -1,0 +1,339 @@
+﻿@{
+    ViewData["Title"] = "Saree API Tester";
+}
+
+<style>
+    /* Simple styling for clarity */
+    .api-section {
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .api-section h4 {
+        margin-top: 0;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+    #logOutput {
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        padding: 10px;
+        height: 300px;
+        overflow-y: scroll;
+        font-family: monospace;
+        font-size: 0.9em;
+        white-space: pre-wrap; /* Allows line breaks */
+        margin-top: 20px;
+    }
+    .result-area {
+        background-color: #e9ecef;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 3px;
+        min-height: 40px;
+        white-space: pre-wrap; /* Show JSON nicely */
+        word-break: break-all;
+    }
+    .form-label {
+        font-weight: bold;
+    }
+</style>
+
+<h1>@ViewData["Title"]</h1>
+<p>Use this page to test the Saree API endpoints.</p>
+
+<div class="container">
+    <div class="row">
+        <!-- API Interaction Column -->
+        <div class="col-md-7">
+            <!-- Get All Sarees -->
+            <div class="api-section">
+                <h4>GET /api/sarees</h4>
+                <button id="btnGetAll" class="btn btn-primary">Get All Sarees</button>
+                <div id="getAllResult" class="result-area">Results will appear here...</div>
+            </div>
+
+            <!-- Get Saree by ID -->
+            <div class="api-section">
+                <h4>GET /api/sarees/{id}</h4>
+                <div class="mb-3">
+                    <label for="getSareeId" class="form-label">Saree ID:</label>
+                    <input type="number" id="getSareeId" class="form-control" placeholder="Enter ID (e.g., 1)">
+                </div>
+                <button id="btnGetById" class="btn btn-info">Get Saree by ID</button>
+                <div id="getByIdResult" class="result-area">Result will appear here...</div>
+            </div>
+
+            <!-- Create Saree -->
+            <div class="api-section">
+                <h4>POST /api/sarees</h4>
+                <form id="createSareeForm">
+                    <div class="mb-3">
+                        <label for="createName" class="form-label">Name:</label>
+                        <input type="text" id="createName" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="createMaterial" class="form-label">Material:</label>
+                        <input type="text" id="createMaterial" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="createColor" class="form-label">Color:</label>
+                        <input type="text" id="createColor" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="createPrice" class="form-label">Price:</label>
+                        <input type="number" step="0.01" id="createPrice" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="createDescription" class="form-label">Description (Optional):</label>
+                        <textarea id="createDescription" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Create Saree</button>
+                </form>
+                <div id="createResult" class="result-area">Result will appear here...</div>
+            </div>
+
+            <!-- Update Saree -->
+            <div class="api-section">
+                <h4>PUT /api/sarees/{id}</h4>
+                <form id="updateSareeForm">
+                    <div class="mb-3">
+                        <label for="updateId" class="form-label">Saree ID to Update:</label>
+                        <input type="number" id="updateId" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="updateName" class="form-label">New Name:</label>
+                        <input type="text" id="updateName" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="updateMaterial" class="form-label">New Material:</label>
+                        <input type="text" id="updateMaterial" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="updateColor" class="form-label">New Color:</label>
+                        <input type="text" id="updateColor" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="updatePrice" class="form-label">New Price:</label>
+                        <input type="number" step="0.01" id="updatePrice" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="updateDescription" class="form-label">New Description (Optional):</label>
+                        <textarea id="updateDescription" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Update Saree</button>
+                </form>
+                <div id="updateResult" class="result-area">Result will appear here...</div>
+            </div>
+
+            <!-- Delete Saree -->
+            <div class="api-section">
+                <h4>DELETE /api/sarees/{id}</h4>
+                <div class="mb-3">
+                    <label for="deleteSareeId" class="form-label">Saree ID:</label>
+                    <input type="number" id="deleteSareeId" class="form-control" placeholder="Enter ID to delete">
+                </div>
+                <button id="btnDeleteById" class="btn btn-danger">Delete Saree by ID</button>
+                <div id="deleteResult" class="result-area">Result will appear here...</div>
+            </div>
+        </div>
+
+        <!-- Log Column -->
+        <div class="col-md-5">
+            <h4>Request/Response Log</h4>
+            <div id="logOutput">Logs will appear here...</div>
+            <button id="btnClearLog" class="btn btn-secondary mt-2">Clear Log</button>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const apiUrl = '/api/sarees'; // Relative URL works because view and API are same origin
+
+            // --- DOM Elements ---
+            const btnGetAll = document.getElementById('btnGetAll');
+            const getAllResult = document.getElementById('getAllResult');
+
+            const btnGetById = document.getElementById('btnGetById');
+            const getSareeIdInput = document.getElementById('getSareeId');
+            const getByIdResult = document.getElementById('getByIdResult');
+
+            const createSareeForm = document.getElementById('createSareeForm');
+            const createResult = document.getElementById('createResult');
+
+            const updateSareeForm = document.getElementById('updateSareeForm');
+            const updateResult = document.getElementById('updateResult');
+            const updateIdInput = document.getElementById('updateId'); // Need this for PUT URL
+
+            const btnDeleteById = document.getElementById('btnDeleteById');
+            const deleteSareeIdInput = document.getElementById('deleteSareeId');
+            const deleteResult = document.getElementById('deleteResult');
+
+            const logOutput = document.getElementById('logOutput');
+            const btnClearLog = document.getElementById('btnClearLog');
+
+
+            // --- Helper Functions ---
+            function logMessage(message) {
+                const timestamp = new Date().toISOString();
+                logOutput.innerHTML += `[${timestamp}] ${message}\n\n`;
+                logOutput.scrollTop = logOutput.scrollHeight; // Auto-scroll to bottom
+            }
+
+            function clearResult(element) {
+                element.textContent = '...';
+                element.style.backgroundColor = '#e9ecef'; // Reset background
+            }
+
+            function displayResult(element, data, isSuccess) {
+                 if (typeof data === 'object') {
+                     element.textContent = JSON.stringify(data, null, 2); // Pretty print JSON
+                 } else {
+                     element.textContent = data;
+                 }
+                 element.style.backgroundColor = isSuccess ? '#d1e7dd' : '#f8d7da'; // Green for success, Red for error
+            }
+
+            async function makeRequest(url, options, resultElement) {
+                clearResult(resultElement);
+                logMessage(`Requesting: ${options.method || 'GET'} ${url}`);
+                if (options.body) {
+                     logMessage(`Request Body: ${options.body}`);
+                }
+
+                try {
+                    const response = await fetch(url, options);
+                    logMessage(`Response Status: ${response.status} ${response.statusText}`);
+
+                    // Handle No Content success (PUT, DELETE)
+                    if (response.status === 204) {
+                        logMessage(`Success (No Content).`);
+                        displayResult(resultElement, `Success: ${response.status} ${response.statusText}`, true);
+                        return { success: true, status: response.status };
+                    }
+
+                    // Try to parse response body (might be JSON or text)
+                    const responseBody = await response.text(); // Get text first to avoid parsing errors on non-JSON
+                    logMessage(`Response Body:\n${responseBody || '(No Body)'}`);
+
+                    if (response.ok) {
+                        try {
+                            const jsonData = JSON.parse(responseBody); // Try parsing as JSON
+                            displayResult(resultElement, jsonData, true);
+                            return { success: true, data: jsonData, status: response.status };
+                        } catch (parseError) {
+                            // If it wasn't JSON but still response.ok (e.g., plain text response)
+                            logMessage(`Response was OK but not valid JSON. Displaying as text.`);
+                            displayResult(resultElement, responseBody, true);
+                             return { success: true, data: responseBody, status: response.status };
+                        }
+                    } else {
+                         // Handle errors (4xx, 5xx)
+                        logMessage(`Error: ${response.status} ${response.statusText}. Body: ${responseBody}`);
+                        displayResult(resultElement, `Error ${response.status}: ${responseBody || response.statusText}`, false);
+                        return { success: false, error: responseBody || response.statusText, status: response.status };
+                    }
+
+                } catch (error) {
+                    logMessage(`Network or other error: ${error}`);
+                    displayResult(resultElement, `Request Failed: ${error}`, false);
+                     return { success: false, error: error.message, status: 0 };
+                }
+            }
+
+
+            // --- Event Listeners ---
+
+            // GET All
+            btnGetAll.addEventListener('click', async () => {
+                const result = await makeRequest(apiUrl, { method: 'GET' }, getAllResult);
+                 // Optionally update other parts of the UI if needed based on the result
+            });
+
+            // GET By ID
+            btnGetById.addEventListener('click', async () => {
+                const id = getSareeIdInput.value;
+                if (!id) {
+                    alert('Please enter a Saree ID.');
+                    return;
+                }
+                await makeRequest(`${apiUrl}/${id}`, { method: 'GET' }, getByIdResult);
+            });
+
+            // POST (Create)
+            createSareeForm.addEventListener('submit', async (event) => {
+                event.preventDefault(); // Prevent traditional form submission
+                const sareeData = {
+                    // Id is generated by the server/datastore, don't send it
+                    name: document.getElementById('createName').value,
+                    material: document.getElementById('createMaterial').value,
+                    color: document.getElementById('createColor').value,
+                    price: parseFloat(document.getElementById('createPrice').value),
+                    description: document.getElementById('createDescription').value
+                };
+
+                 const result = await makeRequest(apiUrl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(sareeData)
+                }, createResult);
+
+                if (result.success) {
+                     createSareeForm.reset(); // Clear the form on success
+                     // Optionally refresh the 'Get All' list
+                     // btnGetAll.click();
+                }
+            });
+
+            // PUT (Update)
+            updateSareeForm.addEventListener('submit', async (event) => {
+                event.preventDefault();
+                const id = updateIdInput.value;
+                 if (!id) {
+                    alert('Please enter the Saree ID to update.');
+                    return;
+                }
+                 const sareeData = {
+                    id: parseInt(id), // Include ID for PUT, matching the URL segment
+                    name: document.getElementById('updateName').value,
+                    material: document.getElementById('updateMaterial').value,
+                    color: document.getElementById('updateColor').value,
+                    price: parseFloat(document.getElementById('updatePrice').value),
+                    description: document.getElementById('updateDescription').value
+                };
+
+                await makeRequest(`${apiUrl}/${id}`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(sareeData)
+                }, updateResult);
+                 // Optionally clear form or refresh list on success
+            });
+
+            // DELETE By ID
+            btnDeleteById.addEventListener('click', async () => {
+                const id = deleteSareeIdInput.value;
+                if (!id) {
+                    alert('Please enter a Saree ID to delete.');
+                    return;
+                }
+                 if (!confirm(`Are you sure you want to delete Saree with ID ${id}?`)) {
+                     return;
+                 }
+                await makeRequest(`${apiUrl}/${id}`, { method: 'DELETE' }, deleteResult);
+                 // Optionally clear input or refresh list on success
+            });
+
+            // Clear Log
+            btnClearLog.addEventListener('click', () => {
+                logOutput.innerHTML = '';
+            });
+
+        });
+    </script>
+}

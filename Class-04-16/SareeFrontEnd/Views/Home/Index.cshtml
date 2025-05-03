@@ -1,0 +1,65 @@
+﻿@* File: Views/Home/Index.cshtml in SareeClientApp *@
+@model IEnumerable<SareeClientApp.Models.Saree>
+
+@{
+    ViewData["Title"] = "Saree Marketplace";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the Saree Marketplace</h1>
+    <p>Browse our collection of beautiful sarees.</p>
+</div>
+<hr />
+
+@* Display error message if ViewBag contains one *@
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger text-center" role="alert">
+        <h4 class="alert-heading">Oops!</h4>
+        <p>@ViewBag.ErrorMessage</p>
+    </div>
+}
+else if (!Model.Any()) // Check if the model has any sarees
+{
+    <div class="alert alert-info text-center" role="alert">
+        <p class="mb-0">No sarees are available at the moment. Please check back later!</p>
+    </div>
+}
+else // Display sarees if the list is not empty
+{
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    @* Display Image - Added check for null/empty and basic styling *@
+                    @if (!string.IsNullOrEmpty(item.Image))
+                    {
+                        <img src="@item.Image" class="card-img-top" alt="@item.Name" style="max-height: 300px; object-fit: cover;">
+                    }
+                    else
+                    {
+                        @* Placeholder if no image is available *@
+                        <div class="card-img-top text-center bg-light" style="height: 300px; display: flex; align-items: center; justify-content: center;">
+                            <span class="text-muted">No Image Available</span>
+                        </div>
+                    }
+
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                        <p class="card-text text-muted small">@Html.DisplayFor(modelItem => item.Material) - @Html.DisplayFor(modelItem => item.Color)</p>
+                        <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
+
+                        @* Price and potentially an "Add to Cart" or "View Details" button would go here in a real app *@
+                        <div class="mt-auto d-flex justify-content-between align-items-center">
+                            <span class="fw-bold fs-5">@item.Price.ToString("C")</span>
+                            @* Example "View Details" button (requires a corresponding action)
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">View Details</a>
+                    *@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

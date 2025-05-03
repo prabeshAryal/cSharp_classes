@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @* Use ViewData or a model property to set the title dynamically *@
+    <title>@ViewData["Title"] - SareeClientApp</title>
+
+    @* Link to standard CSS libraries (Bootstrap is default) *@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @* Link to your custom site CSS *@
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    @* Link specific styles if needed (e.g., from SareeClientApp.styles.css if using CSS isolation) *@
+    <link rel="stylesheet" href="~/SareeClientApp.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                @* Brand/logo linking to the home page *@
+                <a class="navbar-brand" asp-area="" asp-controller="SareesAdmin" asp-action="Index">SareeClientApp</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @* Navigation Link to the Saree Admin Panel *@
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="SareesAdmin" asp-action="Index">Saree Admin</a>
+                        </li>
+                        @* Example of another link (like the default Privacy page) *@
+                        @* <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li> *@
+                    </ul>
+                    @* Placeholder for Login/User partial view if using Identity *@
+                    @* <partial name="_LoginPartial" /> *@
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @* This is where the content of individual views (like Index.cshtml, Create.cshtml) will be rendered *@
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            © @DateTime.Now.Year - SareeClientApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    @* Link to standard JS libraries (jQuery and Bootstrap JS) *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @* Link to your custom site JS *@
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @* This section allows individual views to inject their own scripts (like validation scripts) *@
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
